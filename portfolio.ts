@@ -12,24 +12,23 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Harsh Tiwari",
-  title: "Hi all, I'm Harshtiwari",
+  name: "VArun Kumar Gupta",
+  title: "Hi all, I'm VarunGupta",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "harsh21082004",
+  githubUserName: "Varun15122003",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "harshtiwari.up2004@gmail.com",
-  linkedin: "https://www.linkedin.com/in/harsh-tiwari-745a85274",
-  github: "https://github.com/harsh21082004",
-  instagram: "https://www.instagram.com/harshtiwari2108",
+  email: "varungupta.up2003@gmail.com",
+  linkedin: "https://www.linkedin.com/in/varun-gupta-7b71592a5",
+  github: "https://github.com/Varun15122003",
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -48,10 +47,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "Python",
           iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
         },
         {
           skillName: "JavaScript",
@@ -76,10 +71,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "Github",
           iconifyTag: "akar-icons:github-fill",
-        },
-        {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
         },
       ],
     },
@@ -146,20 +137,13 @@ export const projects: ProjectType[] = [
   {
     name: "developer-portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/harsh21082004/developer-portfolio",
-    link: "https://harsh-developer-portfolio.vercel.app/",
-  },
-  {
-    name: "Full Stack Documentaion Website",
-    desc: "A Full Stack Documentation Website built with Next.js, Tailwind CSS, and Markdown that helps you showcase your work and skills as a software developer.",
-    github:"https://github.com/harsh21082004/test3",
-    link: "https://test3.codebyte.vercel.app/",
+    github: "https://github.com/Varun15122003/Developer-Portfolio",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Varun Kumar Gupta",
+    name: "Harsh Tiwari",
     role: "Student at Raj Kumar Goel Institute of Technology",
     feedback:
       "You were a wonderful addition to our team. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Harsh is extremely difficult. He has contributed to the growth of our organization and continues to do so. I wish you all the best for your future endeavors.",
@@ -174,18 +158,18 @@ export const feedbacks: FeedbackType[] = [
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Harsh Tiwari",
+  title: "Varun Kumar Gupta",
   description: greetings.description,
-  author: "Harsh Tiwari",
+  author: "Varun Kumar Gupta",
   image: "https://avatars.githubusercontent.com/u/131223935?v=4",
   url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
-    "Harshtiwari",
-    "Harsh Tiwari",
-    "@1hanzla100",
-    "1hanzla100",
+    "VarunGupta",
+    "Varun Kumar Gupta",
+    "@Varun15122003",
+    "Varun15122003",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Harsh Tiwari Portfolio",
+    "Varun Portfolio ",
+    "Varun Gupta Portfolio",
   ],
 };
